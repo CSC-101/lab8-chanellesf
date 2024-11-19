@@ -3,7 +3,7 @@ from typing import Optional
 
 # Returns the float sum of two elements in a given list, converts the elements to float before computing
 # INPUT: list with two elements of str
-# OUTPUT: float sum
+# OUTPUT: float sum of the given two elements
 def str_to_float_sum(text : list[str]) -> Optional[float]:
     try:
         return float(text[0]) + float(text[1])
