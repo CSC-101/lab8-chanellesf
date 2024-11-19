@@ -21,7 +21,8 @@ def main():
             count += 1
             print("[LINE: ", count, "]: SUM =", str_to_float_sum(x))
 
-try:
-    main()
-except FileNotFoundError:
-    print("Error: file not found")
+if __name__ == '__main__':
+    try:
+        main()
+    except FileNotFoundError:
+        print("Error: file not found")
